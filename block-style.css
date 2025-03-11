@@ -1,1 +1,72 @@
+.note-formula {
+  font-size: 1em;
+}
+
+.note-formula-inline {
+  font-size: 1em;
+}
+
+.note-formula[data-display="true"] {
+  display: block;
+  margin: 1em 0;
+}
+
+.language-python {
+  overflow-x: auto;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin: 0.5em 0;
+  border-radius: 0.3em;
+  background-color: #f5f5f5;
+}
+
+.output-wrapper {
+  margin-top: 1em;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.output-label {
+  background-color: #f8fafc;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.output-block {
+  overflow-x: auto;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+table.dataframe {
+  min-width: auto;
+  width: auto;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+
+table.dataframe th,
+table.dataframe td {
+  padding: 0.5em 1em;
+  border: 1px solid #e2e8f0;
+}
+
+table.dataframe thead th {
+  background-color: #f1f5f9;
+  font-weight: bold;
+  text-align: left;
+}
+
+.content-wrapper {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
 
